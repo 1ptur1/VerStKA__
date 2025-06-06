@@ -130,7 +130,8 @@ a {
 .about-us {
     padding: 60px 0;
     background-color: #fff;
-    margin-left: 160px;
+    width: 1200px;
+
 }
 a {
     text-decoration:none;
@@ -155,6 +156,7 @@ a {
     flex-wrap: wrap;
     height: 517px;
     width: 436px;
+    margin-left: 100px;
 }
 .ab{
     display: flex;
@@ -163,8 +165,10 @@ a {
     margin-bottom: 14px;
 }
 .about_img{
-    margin-right: 50px;
-    margin-bottom: 42px;
+      margin-right: 28px;
+    margin-top: 25px;
+    height: 50px;
+    width: 50px;
 }
 
 .popular-furniture{
@@ -242,7 +246,6 @@ a {
 .centr-img{
     margin-top: 9px;
     margin-bottom: 11px;
-    margin-left: 12px;
 }
 .img-all{
     height: 410px;
@@ -303,7 +306,6 @@ a {
 .all-img{
     margin-top: 80px;
     display: flex;
-    justify-content: center;
 }
 .buttons0{
     display:flow-root;
@@ -318,7 +320,6 @@ a {
 }
 .people-half{
     display: flex;
-    padding-left: 105px;
 }
 .star{
     display: flex;
@@ -372,7 +373,7 @@ a {
     margin-left: 100px;
 }
 .container1 {
-    background-image: url('images/round.svg');
+    background-image: url(images/round.svg);
     background-repeat: no-repeat;
 }
 .overlay {
@@ -423,6 +424,73 @@ a {
     background-color: #FFFFFF;
   }
 
+
+  .fin{
+    padding: 68px 394px;
+    height: 326px;
+    background-color: #F4F6F6;
+    margin: 0 auto;
+}
+.hhh{
+    width: 550px;
+    height: 96px;
+    text-align: center;
+    font-size: 32px;
+}
+.text11{
+    width: 470px;
+    height: 48px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.pochti{
+    margin-bottom: 140px;
+    height: 394px;
+    width: 1200px;
+}
+.email-container {
+    display: flex;
+    align-items: center;
+    width: 472px;
+    height: 67px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .icon {
+    margin-left: 17px;
+    margin-top: 4px;
+    margin-right: 12px;
+    font-size: 20px;
+  }
+  
+  input[type="email"] {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+  }
+  
+  .register-btn {
+    background-color: #2f5f63;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+.container2{
+    background-color: #305F64;
+}
 
 
 
