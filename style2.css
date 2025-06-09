@@ -6,6 +6,9 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+  html, body {
+    scroll-behavior: smooth;
+  }
 .section {
     max-width: 1440px;
     margin: 0 auto;
